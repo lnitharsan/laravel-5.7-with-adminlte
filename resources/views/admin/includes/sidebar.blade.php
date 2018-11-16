@@ -48,9 +48,9 @@
                     <i class="fa fa-user"></i> <span>Managers</span>
                 </a>
             </li>
-            <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Roll</span></a></li>
-            <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+            <li{!! Request::is('admin/roles', 'admin/roles/*') ? ' class="active"' : '' !!}>
+                <a href="{{url('admin/roles')}}"><i class="fa fa-circle-o text-red"></i> <span>Roles</span></a>
+            </li>
         </ul>
     </section>
     <!-- /.sidebar -->
