@@ -1,0 +1,26 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap v4.1.3
+@import '~bootstrap/scss/bootstrap';
+
+// Fix Icon Font Path
+//$icon-font-path: '~@neos21/bootstrap3-glyphicons/assets/fonts/';
+//@import '~@neos21/bootstrap3-glyphicons';
+
+// START Admin LTE
+@import "~admin-lte/bower_components/font-awesome/css/font-awesome"; // Themes Style
+@import "~admin-lte/bower_components/Ionicons/css/ionicons"; // Ionicons
+@import "~admin-lte/plugins/iCheck/square/blue"; // iCheck
+@import "~admin-lte/dist/css/AdminLTE"; // Themes Style
+@import "~admin-lte/dist/css/skins/_all-skins"; // AdminLTE Skins
+@import "~datatables.net-bs4/css/dataTables.bootstrap4"; //DataTables
+// END
+
+
+
+@import "custom.css";
